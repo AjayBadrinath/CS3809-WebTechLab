@@ -1,0 +1,51 @@
+.spacing{
+    
+    margin-left:110px;
+}
+.error
+{
+  color: red;
+  size: 80%
+}
+.hidden
+{
+  display:none;
+}
+
+
+.align{
+   margin-left: 500px;
+   margin-top: 200px;
+   width: 500px;
+   height: 400px;
+   border-radius: 10px;
+   box-shadow: 5px 10px rebeccapurple;
+   background: rgb(2,0,36);
+   background: rgb(2,0,36);
+   background: -moz-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(35,212,28,0.7036064425770308) 0%, rgba(9,211,198,1) 0%, rgba(22,212,113,1) 6%, rgba(22,212,113,1) 6%, rgba(0,211,255,1) 16%, rgba(15,212,158,1) 21%, rgba(15,212,158,1) 28%, rgba(7,212,208,1) 35%, rgba(3,212,234,1) 40%, rgba(0,212,255,1) 44%, rgba(0,212,255,1) 49%, rgba(0,212,255,1) 54%, rgba(0,212,255,1) 64%, rgba(24,212,99,1) 76%);
+   background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(35,212,28,0.7036064425770308) 0%, rgba(9,211,198,1) 0%, rgba(22,212,113,1) 6%, rgba(22,212,113,1) 6%, rgba(0,211,255,1) 16%, rgba(15,212,158,1) 21%, rgba(15,212,158,1) 28%, rgba(7,212,208,1) 35%, rgba(3,212,234,1) 40%, rgba(0,212,255,1) 44%, rgba(0,212,255,1) 49%, rgba(0,212,255,1) 54%, rgba(0,212,255,1) 64%, rgba(24,212,99,1) 76%);
+   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(35,212,28,0.7036064425770308) 0%, rgba(9,211,198,1) 0%, rgba(22,212,113,1) 6%, rgba(22,212,113,1) 6%, rgba(0,211,255,1) 16%, rgba(15,212,158,1) 21%, rgba(15,212,158,1) 28%, rgba(7,212,208,1) 35%, rgba(3,212,234,1) 40%, rgba(0,212,255,1) 44%, rgba(0,212,255,1) 49%, rgba(0,212,255,1) 54%, rgba(0,212,255,1) 64%, rgba(24,212,99,1) 76%);
+   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#18d463",GradientType=1);
+}
+.btn1{
+   background-color: blueviolet;
+   padding: 20px 30px;
+   font-size: medium;
+   border-radius: 10px;
+}
+.btn2{
+    background-color: green;
+    padding: 20px 30px;
+    font-size: medium;
+    border-radius: 10px;
+ }
+ .btn1:hover{
+    background-color: gold;
+    color: blue;
+    padding: 30px 40px;
+ }
+ .btn2:hover{
+    background-color: red;
+    color: blue;
+    padding: 30px 40px;
+ }

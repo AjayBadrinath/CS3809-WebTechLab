@@ -1,0 +1,71 @@
+<html>
+    <body>
+        <link rel="stylesheet" href="style2.css">
+        
+        <script>confirm("Enter the form")</script>
+        <script>
+            function submit(){
+            var name=document.querySelector('.c');
+            confirm("Submit?"+name);
+            }
+            </script>
+        
+        </script>
+<div class ="align">
+    <form class="form">
+        <div style="float: left;margin: 40px;" > 
+        <span><label >Name:</label>
+          <div class="spacing">
+        <input type="text" id="c" name="Name" value="Enter" minlength="3" maxlength="12">
+          
+        </div>
+        <span><label >Email:</label>
+            <div class="spacing">
+          <input type="email" id="c3" name="Email" value="Enter" required>
+            
+          </div>
+          <span><label >Password:</label>
+            <div class="spacing">
+          <input type="password" id="c2" name="Pwd" value=""minlength="8" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" title="Please include at least 1 uppercase character, 1 lowercase character, and 1 number." required >
+            
+          </div>
+        <!---
+        add pseudo elem hover effect in button and shadow and size of btn
+        -->
+    </span>
+        <span>
+            <label for ="Gender">Gender:</label>
+            <div class="spacing">
+        <label for="Gender">Male</label>
+        <input type="radio"id="gen">
+        <label for="Gender">Female</label>
+        <input type="radio"id="gen"><br></div>
+        </span>
+        <label for ="Qualification">Qualification:</label>
+        <input type="checkbox"id="q">
+        <label for="Qualification">10th</label>
+        <input type="checkbox"id="q">
+        <label for="Qualification">12th</label><br>
+        <div class="spacing">
+        <input type="checkbox"id="q">
+        <label for="Qualification">Diploma</label>
+        
+        <input type="checkbox"id="q">
+        <label for="Qualification">PostGrad</label><br>
+        <label for="cars">Choose</label>
+    <select id="cars" name="cars" required>
+    <option value="volvo">p1</option>
+    <option value="saab">p2</option>
+    <option value="fiat">p3</option>
+    <option value="audi">p4</option>
+  </select><br>
+  <button class="btn1" onclick="submit()">Submit</button>
+  <button class ="btn2">Cancel</button>
+    </div>
+    </div>
+    </form>
+    </div>
+   
+    </body>
+
+</html>

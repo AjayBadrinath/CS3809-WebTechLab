@@ -1,0 +1,149 @@
+.full{
+    width: 700px;
+    height: 1000px;
+    background: #00fff2c1;
+    margin: 50px auto;
+    box-shadow: 5px 5px 5px 5px ;
+    
+}
+.left{
+    width: 30%;
+    float: left;
+    height: 600px;
+}
+.imagedisplay{
+    width: 100px;
+    height: 100px;1
+    border: 2px solid rgba(0, 0, 0, 0.355);
+    border-radius: 50%;
+    padding: 2px;
+    margin: 20px auto;
+}
+.imagedisplay img{
+    width: 100%;
+    border-radius: 70%;
+}
+.info{
+    margin: 20px auto;
+    padding: 0px 40px 40px 40px;
+    color: green;
+}
+.hr_1{
+    background: white;
+}
+.smallintro{
+    letter-spacing: 3px;
+    font-size: small;
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+}
+.langs{
+    font-size: 10px;
+    letter-spacing: 1px;
+
+}
+.bar{
+    background:blue;
+    border-radius: 16px;
+    height: 12px;
+    width: 100%;
+}
+.bar1{
+    background:blue;
+    border-radius: 16px;
+    height: 12px;
+    width: 90%;
+}
+.bar2{
+    background:blue;
+    border-radius: 16px;
+    height: 12px;
+    width: 80%;
+}
+.bar3{
+    background:blue;
+    border-radius: 16px;
+    height: 12px;
+    width: 60%;
+}
+.bars{
+    background:blue;
+    border-radius: 16px;
+    height: 12px;
+    width: 80%;
+}
+.work{
+    float: left;
+    width: 70%;
+    color: orange;
+}
+.year{
+    float: left;
+    width: 35%;
+}
+.yr{
+    font-weight: 500;
+    color: orange;
+}
+.work1{
+    float: left ;
+    width: 65%;
+}
+.bar4{
+    background:blue;
+    border-radius: 16px;
+    height: 12px;
+    width: 90%;
+}
+.bar5{
+    background:blue;
+    border-radius: 16px;
+    height: 12px;
+    width: 90%;
+}
+.Header{
+    color:rgba(176, 53, 232, 0.87)
+}
+.bar6{
+    background:blue;
+    border-radius: 16px;
+    height: 12px;
+    width: 85%;
+}
+.bar7{
+    background:blue;
+    border-radius: 16px;
+    height: 12px;
+    width: 75%;
+}
+.clr{
+    clear: both;
+}
+.right{
+    
+    width: 60%;
+    float:left;
+    background-color: #ffffffb8;
+    height: 900px;
+    margin : 50px auto;
+    border-radius: 50px 0px 0px 50px;
+    padding :10px 10px;
+    box-shadow:  -7px 2px 15px 2px #00fff2c1;
+}
+.name{
+    letter-spacing: 1px; 
+    font-weight: bolder; 
+    
+    color: red;
+
+}
+.title_name{
+    font-weight: 500;
+    color: magenta;
+    letter-spacing: 4px;
+}
+.whatdidido{
+    
+    font-size: 12px;
+    color: darkgreen;
+}
